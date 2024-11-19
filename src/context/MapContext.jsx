@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 // Create two context:
 // UserContext: to query the context state
 // UserDispatchContext: to mutate the context state
-const mapContext = createContext(undefined);
+const MapContext = createContext(undefined);
 
 // A "provider" is used to encapsulate only the
 // components that needs the state in this context
@@ -17,7 +17,7 @@ function MapProvider({ children }) {
     setCount(count + 1);
   }
 
-  const Provider = mapContext.Provider;
+  const Provider = MapContext.Provider;
 
   return (
     <Provider
@@ -37,4 +37,4 @@ function MapProvider({ children }) {
   );
 }
 
-export { MapProvider, mapContext };
+export { MapProvider, MapContext };

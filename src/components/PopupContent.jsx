@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import { mapContext } from "../context/mapContext";
+import { MapContext } from "../context/MapContext";
 
 export default function PopupContent({ label }) {
-  const { click } = useContext(mapContext);
+  const { click } = useContext(MapContext);
 
   return (
     <div>

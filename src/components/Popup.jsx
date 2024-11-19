@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useRef } from "react";
-import { mapContext } from "../context/mapContext";
+import { MapContext } from "../context/MapContext";
 import mapboxgl from "mapbox-gl";
 
 export const Popup = ({ children, lngLat, onClose }) => {
-  const { map } = useContext(mapContext);
+  const { map } = useContext(MapContext);
   const popupRef = useRef();
 
   useEffect(() => {

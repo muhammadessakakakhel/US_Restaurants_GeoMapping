@@ -1,7 +1,7 @@
 import "./style.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-import { MapProvider } from "./context/mapContext";
+import { MapProvider } from "./context/MapContext";
 import Map from "./components/Map";
 
 

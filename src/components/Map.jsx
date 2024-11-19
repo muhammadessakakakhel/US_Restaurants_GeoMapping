@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 import data from "../data";
 
-import { mapContext } from "../context/mapContext";
+import { MapContext } from "../context/MapContext";
 import Popup from "./Popup";
 import PopupContent from "./PopupContent";
 
@@ -19,7 +19,7 @@ const StyledContainer = styled.div`
 const Map = () => {
   const [content, setContent] = useState([]);
   const [popupLngLat, setPopupLngLat] = useState(null);
-  const { setMap, map } = useContext(mapContext);
+  const { setMap, map } = useContext(MapContext);
   const mapContainer = useRef(null);
 
   function onPopupClose() {
