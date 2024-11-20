@@ -44,8 +44,9 @@ const Map = () => {
       .setPopup(
         new mapboxgl.Popup().setHTML(
           `<div>
-                 <h3>PJ Fresh (224 Daniel Payne Drive)</h3>
+                 <h3>PJ Fresh </h3>
                  <p><strong>Category:</strong> Burgers, American, Sandwiches</p>
+                <p><strong>Address:</strong> 224 Daniel Payne Drive, Birmingham, AL, 35207</p>
                 
                 
                  <p><strong>Avg Rating:</strong> 4.7</p>
