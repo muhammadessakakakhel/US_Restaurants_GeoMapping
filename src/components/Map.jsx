@@ -46,9 +46,9 @@ const Map = () => {
           `<div>
                  <h3>PJ Fresh (224 Daniel Payne Drive)</h3>
                  <p><strong>Category:</strong> Burgers, American, Sandwiches</p>
-                 <p><strong>Address:</strong> 224 Daniel Payne Drive, Birmingham, AL, 35207</p>
-                 <p><strong>Zip Code:</strong> 35207</p>
-                 <p><strong>Score:</strong> 4.7</p>
+                
+                
+                 <p><strong>Avg Rating:</strong> 4.7</p>
                </div>`) // Attach a popup
       )
       .addTo(mapInstance); // Add the marker to the map
