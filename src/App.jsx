@@ -17,3 +17,25 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+// // Data is coming real time from AWS RDS
+
+// //////////////////////////////////////////////
+// import React from "react";
+// import DataProvider from "./context/DataProvider";
+// import Map from "./components/Map";
+
+// const App = () => {
+//   return (
+//     <DataProvider>
+//       <Map />
+//     </DataProvider>
+//   );
+// };
+
+// export default App;
+
