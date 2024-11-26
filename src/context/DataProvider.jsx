@@ -9,7 +9,10 @@ const DataProvider = ({ children }) => {
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/restaurants");
+        const response = await axios.get("/api/restaurants");
+
+        // const response = await axios.get("http://localhost:5000/api/restaurants");
+        
         setRestaurants(response.data);
       } catch (error) {
         console.error("Error fetching restaurant data:", error);
@@ -27,3 +30,9 @@ const DataProvider = ({ children }) => {
 };
 
 export default DataProvider;
+
+
+
+
+
+
